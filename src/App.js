@@ -1,15 +1,19 @@
-import logo from './logo.png';
+import React from 'react';
+import NavbarDiv from './Components/Navbar';
+import HeaderDiv from './Components/Header';
+import MainDiv from './Components/MainContent';
+import FormDiv from './Components/FormField';
+import FooterDiv from './Components/Footer';
 import './App.css';
-import NavbarCmp from './Components/Navbar';
-import MainComp from './Components/MainContent';
-import FooterCmp from './Components/Footer';
 
 function App() {
   return (
     <div>
-      <NavbarCmp></NavbarCmp>
-      <MainComp></MainComp>
-      <FooterCmp></FooterCmp>
+      <NavbarDiv></NavbarDiv>
+      <HeaderDiv></HeaderDiv>
+      <MainDiv></MainDiv>
+      <FormDiv></FormDiv>
+      <FooterDiv></FooterDiv>
     </div>
   );
 }

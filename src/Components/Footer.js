@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Github, Linkedin, Instagram } from "react-bootstrap-icons";
 import { Col, Row, Container } from "react-bootstrap";
 
-export default class FooterCmp extends Component {
+export default class FooterDiv extends Component {
   render() {
     return (
         <Container>
