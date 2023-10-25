@@ -1,7 +1,7 @@
 {
   "name": "s5-web-dev-midtest",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/s5-web-pages-midtest",
+  "homepage": "https://ridwannadev.github.io/s5-web-pages-midtest",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
