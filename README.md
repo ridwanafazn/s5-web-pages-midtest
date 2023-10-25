@@ -12,39 +12,28 @@ In the project directory, you can run:
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: Gunakan branch master!**
 
-# Landing Page - Web App Development Midterm Exam
+# Midterm Exam : Codecraft
 
-1217050103 - Muhammad Syamil Hamami
+1217050121 - Ridwan Ahmad Fauzan
 
 Praktikum PAW - Kelas F
 
-Web bisa dibuka [disini](https://college-courseworks.gitlab.io/semester-v/web-app-development/midterm-exam/).
+Link Website via [Github Pages](https://ridwannadev.github.io/s5-web-pages-midtest/).
 
-# Table of Contents
+## Tech Stack
 
-- [Stack yang Digunakan](#stack-yang-digunakan)
-- [Menyiapkan Project](#menyiapkan-project)
-- [Penjelasan Komponen Utama](#penjelasan-komponen-utama)
-  - [Header](#header)
-  - [Content](#content)
-  - [Footer](#footer)
-- [Penjelasan Komponen Sub](#penjelasan-komponen-sub)
-
-## Stack yang Digunakan
-
-- [ReactJS - Frontend Javascript LIbrary](https://react.dev)
-- [Vite - Frontend Build Tools](https://vitejs.dev)
-- [SASS - CSS Preprocessor](https://sass-lang.com/)
-- [CSS - Styling](https://www.w3schools.com/css/)
-- [Gitlab Pages - Deployment](https://docs.gitlab.com/ee/user/project/pages/)
+- Reactjs
+- Bootstrap
+- Github Pages
 
 ## Menyiapkan Project
 
-Project **React** dibuat menggunakan **Vite** sebagai frontend tools-nya, lalu untuk styling menggunakan **SASS** (Superset dari **CSS**). Berikut ini struktur dari projeknya:
+Project diinisiasikan dengan npm, dan menambahkan dependensi bootstrap melalui CLI. Dan setelah itu langsung di publish ke github repository. Untuk struktur folder dari CRA sebagai berikut:
 
-```shell
+
+```bash
 s5-web-pages-midtest /
   - public
   - src /
@@ -76,22 +65,55 @@ Ada 5 komponen yang dibuat untuk dimasukkan ke dalam App.js , yaitu komponen:
 
 ### `Navbar`
 
+Komponen NavbarDiv digunakan untuk membuat bilah navigasi dalam aplikasi web dengan menggunakan Bootstrap. Dalam komponen ini:
 
+- `Navbar` digunakan untuk membuat bilah navigasi.
+- `Navbar.Brand` berisi logo dan teks.
+- `Nav.Link` adalah tautan menu yang mengarahkan pengguna ke berbagai bagian situs web.
+
+Namun tidak semua link pada NavBar ini berfungsi sepenuhnya.
 
 ### `Header`
 
 Komponen HeaderDiv membagi header menjadi dua bagian:
 
-- Bagian kiri (header-1) berisi judul, deskripsi, tombol pesan, dan tautan "See my project". Tombol pesan membuka klien email dengan alamat email yang ditentukan.
-- Bagian kanan (header-2) dapat digunakan untuk gambar latar belakang atau elemen visual lainnya.
-- Bootstrap digunakan untuk mengatur tata letak dengan kolom (Col) dan baris (Row), serta Container dengan ID "home" untuk mengatur konten.
-
-Ini adalah bagian dari tampilan header website yang dapat disesuaikan dengan desain dan konten yang Anda inginkan.
+- Bagian kiri berisi judul, deskripsi, tombol pesan, dan tautan "See my project". Tombol pesan membuka klien email dengan alamat email yang ditentukan.
+- Bagian kanan dapat digunakan untuk gambar latar belakang atau elemen visual lainnya.
+- Bootstrap digunakan untuk mengatur tata letak dengan kolomdan baris, serta Container dengan ID "home" untuk mengatur konten.
 
 ### `MainContent`
+
+Komponen ini digunakan untuk menampilkan elemen-elemen utama dalam halaman web. Komponen ini terdiri dari empat bagian:
+
+1. Dua bagian atas (bagian kiri dan kanan) dengan gambar ikon, judul, dan deskripsi singkat.
+2. Dua bagian bawah (bagian kiri dan kanan) yang menampilkan gambar dan teks.
+
+Dalam komponen ini, terdapat ikon-ikon seperti "KeyboardFill" dan "SendFill". Dan menggunakan Bootstrap untuk mengatur tata letak dengan kolom (Col) dan baris (Row).
 
 
 ### `FormField`
 
+Komponen FormDiv digunakan untuk membuat formulir input di halaman web. Komponen ini mencakup beberapa elemen formulir, termasuk input teks, alamat email, pilihan peran, teks area, dan pilihan tautan.
+
+Elemen-elemen utama dalam komponen ini:
+
+1. Input nama dengan label "Name"..
+2. Input alamat email dengan label "Email address".
+3. Pilihan peran dalam bentuk dropdown dengan label "Role".
+4. Input pesan.
+5. Combo box untuk memilih jenis informasi yang ingin pengunjung web terima.
+
+Anda dapat menyesuaikan formulir ini sesuai dengan kebutuhan halaman web Anda, seperti menambahkan atau mengubah field formulir.
+
 
 ### `Footer`
+
+Komponen FooterDiv digunakan untuk membuat footer halaman web. Footer ini berisi tautan sosial media, seperti Github, Linkedin, dan Instagram. Selain itu, footer juga berisi tautan navigasi untuk berbagai bagian atau informasi.
+
+Elemen-elemen utama dalam komponen ini:
+
+1. Tautan ikon sosial media, termasuk Github, Linkedin, dan Instagram. Pengguna dapat mengklik tautan ini untuk mengunjungi profil sosial media.
+
+2. Tautan navigasi di bagian bawah footer, dibagi menjadi dua kolom.
+
+Footer ini memberikan pengguna akses cepat ke informasi dan tautan yang relevan terkait profile ataupun contact dari pembuat website.
