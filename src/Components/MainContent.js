@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { SendFill, KeyboardFill } from "react-bootstrap-icons";
-import { Col, Row, Container, Image } from "react-bootstrap";
+import { Col, Row, Container, Image} from "react-bootstrap";
 
 export default class FirstMainComp extends Component {
   render() {

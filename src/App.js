@@ -5,6 +5,7 @@ import MainDiv from './Components/MainContent';
 import FormDiv from './Components/FormField';
 import FooterDiv from './Components/Footer';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (

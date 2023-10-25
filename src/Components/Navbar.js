@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
-
 import logo from "../logo.png";
 
 export default class NavbarDiv extends Component {
@@ -15,6 +14,7 @@ export default class NavbarDiv extends Component {
                         className="d-inline-block align-top"
                         alt="Codecraft"
                     />
+                    <span className="brand-text">Codecraft</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="me-3" />
                 <Navbar.Collapse

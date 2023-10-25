@@ -42,10 +42,11 @@ export default class FormDiv extends Component {
         <Form.Group className="mb-3" controlId="AppForm.InputRole">
           <Form.Label>Role</Form.Label>
           <Form.Select required aria-label="Default select example" size="lg">
-            <option value="Designer">Designer</option>
-            <option value="Web Development">Web Development</option>
-            <option value="Software Development">Software Development</option>
-            <option value="Devops">Devops</option>
+            <option value="Project Manager">Project Manager</option>
+            <option value="UI/UX Designer">UI/UX Designer</option>
+            <option value="Web Developer">Web Developer</option>
+            <option value="Mobile Developer">Mobile Developer</option>
+            <option value="Dev-Ops Engineer">Dev-Ops Engineer</option>
             <option value="Other">Other</option>
           </Form.Select>
           <Form.Control.Feedback type="invalid">
