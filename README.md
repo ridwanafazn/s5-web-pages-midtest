@@ -1,3 +1,11 @@
+# Midterm Exam : Codecraft
+
+1217050121 - Ridwan Ahmad Fauzan
+
+Praktikum PAW - Kelas F
+
+Link Website via [Github Pages](https://ridwannadev.github.io/s5-web-pages-midtest/).
+
 # Getting Started with Create React App
 
 ## Available Scripts
@@ -13,14 +21,6 @@ In the project directory, you can run:
 ### `npm run eject`
 
 **Note: Gunakan branch master!**
-
-# Midterm Exam : Codecraft
-
-1217050121 - Ridwan Ahmad Fauzan
-
-Praktikum PAW - Kelas F
-
-Link Website via [Github Pages](https://ridwannadev.github.io/s5-web-pages-midtest/).
 
 ## Tech Stack
 
