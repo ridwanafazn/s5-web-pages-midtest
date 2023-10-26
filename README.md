@@ -16,78 +16,6 @@ Link Website via [Github Pages](https://ridwannadev.github.io/s5-web-pages-midte
 - Bootstrap
 - Github Pages
 
-## Menyiapkan Project
-
-1. Membuat project
-
-- Masuk ke directory yang digunakan untuk menyimpan project
-- Inisiasi dengan `npx create-react-app s5-web-pages-midtest`
-- Output
-```bash
-my-app
-├── README.md
-├── node_modules
-├── package.json
-├── .gitignore
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   └── robots.txt
-└── src
-    ├── App.css
-    ├── App.js
-    ├── App.test.js
-    ├── index.css
-    ├── index.js
-    ├── logo.svg
-    ├── serviceWorker.js
-    └── setupTests.js
-
-```
-
-2. Mencoba run project
-- Project react sudah berhasil dibuat, dan halaman akan berisi logo react
-- Uji dengan menjalakan halaman secara lokal dan lokal server
-`npm start`
-`npm test`
-`npm run build`
-`npm run eject`
-
-3. Tambahkan dependensi bootstrap melalui CLI menggunakan `npm install react-bootstrap bootstrap`. 
-
-4. Untuk struktur folder dari CRA sebagai berikut:
-
-```bash
-s5-web-pages-midtest /
-  - public
-  - src /
-    - assets
-    - components /
-      - Footer.js
-      - FormField.js
-      - Header.js
-      - MainContent.js
-      - Navbar.js
-    - App.js
-    - App.css
-    - index.js
-    - index.css
-    - logo.png
-  - index.html
-  - package-lock.json
-  - package.json
-```
-
-5. Publish page ke Github Pages
-
-- Install gh-pages sebagai dependensi
-`$ npm install gh-pages --save-dev`
-- Buat halaman homepage dengan menambahkannya di `package.json` 
-Format sebagai berikut `"homepage": "https://gitname.github.io/react-gh-pages"` --> `"homepage" : "https://ridwannadev.github.io/s5-web-pages-midtest/"`
-
 ## Penjelasan Komponen Utama
 
 Ada 5 komponen yang dibuat untuk dimasukkan ke dalam App.js , yaitu komponen:
@@ -151,3 +79,38 @@ Elemen-elemen utama dalam komponen ini:
 2. Tautan navigasi di bagian bawah footer, dibagi menjadi dua kolom.
 
 Footer ini memberikan pengguna akses cepat ke informasi dan tautan yang relevan terkait profile ataupun contact dari pembuat website.
+
+## Menyiapkan Project
+
+1. Membuat project
+
+- Masuk ke directory yang digunakan untuk menyimpan project
+- Inisiasi dengan `npx create-react-app s5-web-pages-midtest`
+
+2. Mencoba run project
+- Project react sudah berhasil dibuat, dan halaman akan berisi logo react
+- Uji dengan menjalakan halaman secara lokal dan lokal server
+`npm start`
+`npm test`
+`npm run build`
+`npm run eject`
+
+3. Tambahkan dependensi bootstrap melalui CLI menggunakan `npm install react-bootstrap bootstrap`. 
+
+4. Publish page ke Github Pages
+
+- Install gh-pages sebagai dependensi
+`$ npm install gh-pages --save-dev`
+- Buat halaman homepage dengan menambahkannya di `package.json` 
+Sehingga `"homepage" : "https://ridwannadev.github.io/s5-web-pages-midtest/"`
+
+- Tambahkan script deployment
+```bash
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+```
+5. Tambahkan "remote" ke repository
+
+    ```bash
+    $ git remote add origin https://github.com/ridwannadev/5-web-pages-midtest/.git
+    ```
