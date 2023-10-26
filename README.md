@@ -6,21 +6,9 @@ Praktikum PAW - Kelas F
 
 Link Website via [Github Pages](https://ridwannadev.github.io/s5-web-pages-midtest/).
 
-# Getting Started with Create React App
+# Prerequisite
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-### `npm test`
-
-### `npm run build`
-
-### `npm run eject`
-
-**Note: Gunakan branch master!**
+- Install `nodejs` dan `npm`
 
 ## Tech Stack
 
@@ -30,8 +18,47 @@ In the project directory, you can run:
 
 ## Menyiapkan Project
 
-Project diinisiasikan dengan npm, dan menambahkan dependensi bootstrap melalui CLI. Dan setelah itu langsung di publish ke github repository. Untuk struktur folder dari CRA sebagai berikut:
+1. Membuat project
 
+- Masuk ke directory yang digunakan untuk menyimpan project
+- Inisiasi dengan `npx create-react-app s5-web-pages-midtest`
+- Output
+```bash
+my-app
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── serviceWorker.js
+    └── setupTests.js
+
+```
+
+2. Mencoba run project
+- Project react sudah berhasil dibuat, dan halaman akan berisi logo react
+- Uji dengan menjalakan halaman secara lokal dan lokal server
+`npm start`
+`npm test`
+`npm run build`
+`npm run eject`
+
+3. Tambahkan dependensi bootstrap melalui CLI menggunakan `npm install react-bootstrap bootstrap`. 
+
+4. Untuk struktur folder dari CRA sebagai berikut:
 
 ```bash
 s5-web-pages-midtest /
@@ -53,6 +80,13 @@ s5-web-pages-midtest /
   - package-lock.json
   - package.json
 ```
+
+5. Publish page ke Github Pages
+
+- Install gh-pages sebagai dependensi
+`$ npm install gh-pages --save-dev`
+- Buat halaman homepage dengan menambahkannya di `package.json` 
+Format sebagai berikut `"homepage": "https://gitname.github.io/react-gh-pages"` --> `"homepage" : "https://ridwannadev.github.io/s5-web-pages-midtest/"`
 
 ## Penjelasan Komponen Utama
 
