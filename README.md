@@ -6,7 +6,7 @@ Praktikum PAW - Kelas F
 
 Link Website via [Github Pages](https://ridwannadev.github.io/s5-web-pages-midtest/).
 
-# Prerequisite
+## Prerequisite
 
 - Install `nodejs` dan `npm`
 
@@ -65,8 +65,6 @@ Elemen-elemen utama dalam komponen ini:
 4. Input pesan.
 5. Combo box untuk memilih jenis informasi yang ingin pengunjung web terima.
 
-Anda dapat menyesuaikan formulir ini sesuai dengan kebutuhan halaman web Anda, seperti menambahkan atau mengubah field formulir.
-
 
 ### `Footer`
 
@@ -74,7 +72,7 @@ Komponen FooterDiv digunakan untuk membuat footer halaman web. Footer ini berisi
 
 Elemen-elemen utama dalam komponen ini:
 
-1. Tautan ikon sosial media, termasuk Github, Linkedin, dan Instagram. Pengguna dapat mengklik tautan ini untuk mengunjungi profil sosial media.
+1. Link ikon sosial media, termasuk Github, Linkedin, dan Instagram. Pengunjung dapat mengklik tautan ini untuk mengunjungi profil sosial media.
 
 2. Tautan navigasi di bagian bawah footer, dibagi menjadi dua kolom.
 
